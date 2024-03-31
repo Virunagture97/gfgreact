@@ -9,7 +9,7 @@ const Navigation = () => {
     const isLoggedIn = storedLoggedIn === 'true';
 
     setLoggedIn(isLoggedIn);
-  },[]);
+  });
   
   
   const handleLogout = () => {
